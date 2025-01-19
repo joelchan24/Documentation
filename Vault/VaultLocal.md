@@ -28,21 +28,21 @@ Before getting started, make sure you have the following:
 
    Find the folder __Desktop/DevOps_SRE__ and run the Following commands
    
-    ```bash
-    cd Vault/Docker
-    docker-compose up
-    ``` 
+```bash
+cd Vault/Docker
+docker-compose up
+``` 
 
 ###  **Step 2: Export Env variable on Powershell Terminal**
 
    Export the variable using powershell sintax
    
-    ```
-    $env:VAULT_ADDR="http://localhost:8200"
-    ```
+```
+$env:VAULT_ADDR="http://localhost:8200"
+```
 
 ###  **Step 3:  Validate with Vault Command**
    
-    ```
-     vault status
-    ```
+```
+ vault status
+```
